@@ -1,4 +1,4 @@
-package com.example.springbootannotationexample.aop;
+package com.saurabhnemade.springbootannotationexample.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class LogTimeAspect {
     Logger logger = LoggerFactory.getLogger(LogTimeAspect.class);
 
-    @Around("@annotation(LogTime)")
+    @Around("@annotation(com.saurabhnemade.springbootannotationexample.aop.LogTime)")
     public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();
         Object proceed =  joinPoint.proceed();

@@ -1,4 +1,4 @@
-package com.example.springbootannotationexample;
+package com.saurabhnemade.springbootannotationexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

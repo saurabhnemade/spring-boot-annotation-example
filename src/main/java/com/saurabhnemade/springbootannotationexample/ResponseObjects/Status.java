@@ -1,4 +1,4 @@
-package com.example.springbootannotationexample.ResponseObjects;
+package com.saurabhnemade.springbootannotationexample.ResponseObjects;
 
 public class Status {
     private String status;

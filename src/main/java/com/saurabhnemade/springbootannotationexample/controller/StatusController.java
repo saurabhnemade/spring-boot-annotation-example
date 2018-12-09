@@ -1,7 +1,7 @@
-package com.example.springbootannotationexample.controller;
+package com.saurabhnemade.springbootannotationexample.controller;
 
-import com.example.springbootannotationexample.ResponseObjects.Status;
-import com.example.springbootannotationexample.aop.LogTime;
+import com.saurabhnemade.springbootannotationexample.ResponseObjects.Status;
+import com.saurabhnemade.springbootannotationexample.aop.LogTime;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
